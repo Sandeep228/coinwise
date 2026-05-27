@@ -107,7 +107,7 @@ export default function LessonPage({ params }: { params: { slug: string } }) {
           <h3 style={{ fontFamily: 'var(--font-display)', fontSize: 26, fontWeight: 700, color: '#f1f5f9', marginBottom: 8 }}>
             Lesson complete!
           </h3>
-          <p style={{ color: '#94a3b8', marginBottom: 24 }}>You've earned <strong style={{ color: '#fbbf24' }}>{lesson.xp} XP</strong>. Test what you learned with the quiz.</p>
+          <p style={{ color: '#94a3b8', marginBottom: 24 }}>You&apos;ve earned <strong style={{ color: '#fbbf24' }}>{lesson.xp} XP</strong>. Test what you learned with the quiz.</p>
           <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link href="/quiz" className="btn-primary" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 8 }}>
               Take the quiz <ArrowRight size={16} />

@@ -45,7 +45,7 @@ export default function DashboardPage() {
           <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(28px,4vw,44px)', fontWeight: 800, color: '#f1f5f9', marginBottom: 8 }}>
             Your Dashboard
           </h1>
-          <p style={{ color: '#64748b', fontSize: 16 }}>Keep going — you're building real money skills.</p>
+          <p style={{ color: '#64748b', fontSize: 16 }}>Keep going — you&apos;re building real money skills.</p>
         </div>
         <div style={{
           background: 'linear-gradient(135deg, rgba(251,191,36,0.15), rgba(251,191,36,0.05))',
@@ -155,7 +155,7 @@ export default function DashboardPage() {
           <h3 style={{ fontFamily: 'var(--font-display)', fontSize: 22, fontWeight: 700, color: '#f1f5f9', marginBottom: 6 }}>
             Next up: Compound Interest
           </h3>
-          <p style={{ color: '#64748b', fontSize: 15 }}>The 8th wonder of the world — don't miss this one.</p>
+          <p style={{ color: '#64748b', fontSize: 15 }}>The 8th wonder of the world — don&apos;t miss this one.</p>
         </div>
         <div style={{ display: 'flex', gap: 12 }}>
           <Link href="/learn/compound-interest" className="btn-primary" style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 8 }}>
